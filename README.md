@@ -1,6 +1,23 @@
 # TicTacToe
 Purpose of this project is to create TicTacToe game with Django. 
 
+
+## Installing
+### Cloning repository
+```
+git clone git@github.com:rajashekar/tictactoe.git
+cd tictactoe
+```
+### Installing required modules 
+Using pip
+```
+pip install -r requirements.txt
+```
+OR Using pipenv
+```
+pipenv install
+```
+
 ## Commands
 ### To create a virtual environment
 ```
@@ -75,4 +92,9 @@ Operations to perform:
 Running migrations:
   Applying gameplay.0004_auto_20200517_1232... OK
   Applying player.0002_auto_20200517_1232... OK
+```
+
+### To freeze and create requirements.txt
+```
+pip freeze > requirements.txt
 ```
